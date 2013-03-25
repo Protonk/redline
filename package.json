@@ -1,0 +1,38 @@
+{
+  "name": "redline",
+  "description": "How late is the red line?",
+  "version": "0.1.0",
+  "homepage": "https://github.com/protonk/redline",
+  "author": {
+    "name": "Adam Hyland",
+    "email": "protonk@gmail.com",
+    "url": "http://shiftcommandawesome.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/protonk/redline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/protonk/redline/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/protonk/redline/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/redline",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": []
+}
